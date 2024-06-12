@@ -63,8 +63,13 @@ H2 {
 }
 
 H1,
-H2 {
+H2,
+A {
     color: var(--VeryDarkMagenta);
+}
+
+H1,
+H2 {
     text-align: center;
 }
 
@@ -176,8 +181,13 @@ SVG {
 }
 
 .attribution {
-    font-size: 1.2em;
     margin-top: 4rem;
+
+}
+
+.attribution P {
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 @media screen and (min-width:calc(970px - 2rem)) {
